@@ -8,7 +8,7 @@ def flat_generator(list_of_lists):
         new += i
     for el in new:
         if new == []:
-            exit()
+            break
         yield (el)
     
 
